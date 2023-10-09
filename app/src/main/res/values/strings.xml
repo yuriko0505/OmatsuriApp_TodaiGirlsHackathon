@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Natsuyasai</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="create_newevent">新規イベントQRを作成</string>
+    <string name="create_qr">QR作成</string>
+    <string name="to_event">イベントページへ</string>
+
+    <string name="qr_scheme">natsuyasai</string>
+    <string name="qr_host">events</string>
+
+
+
+</resources>

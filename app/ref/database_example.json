@@ -1,0 +1,39 @@
+{
+  "events": {
+    "randomly generated id1 for komabasai": {//event id event obj UUID
+      "id" : "same as key",
+      "name": "駒場祭",
+      "years": {
+        "2022": { // year obj
+          "year": 2022,
+          "messages": {
+            "randomly generated id1": {"content": "暑いので熱中症対策必須。", //message obj
+            "timestamp": time,
+            "user_profession": "保健"},
+            "randomly generated id2":{
+              "content": "かき氷品切れ！",
+              "timestamp": time,
+              "user_profession": "経理"
+            }
+          }
+        },
+        "2023": {
+          "year": 2023,
+          "messages": [
+          ]
+        }
+      }
+    },
+    "randomly generated id2 for komabasai": {
+      "id" : "same as key",
+      "name": "五月祭",
+      "years": {
+        "2022": {
+          "year": 2022,
+          "messages": [
+          ]
+        }
+      }
+    }
+  }
+}

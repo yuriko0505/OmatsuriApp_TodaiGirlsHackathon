@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeActivity">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="com.example.natsuyasai.ui.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first">
+        <action
+            android:id="@+id/action_FirstFragment_to_newYearActivity"
+            app:destination="@id/newYearActivity" />
+    </fragment>
+    <fragment
+        android:id="@+id/SecondFragment"
+        android:name="com.example.natsuyasai.ui.SecondFragment"
+        android:label="@string/second_fragment_label"
+        tools:layout="@layout/fragment_second">
+
+        <action
+            android:id="@+id/action_SecondFragment_to_FirstFragment"
+            app:destination="@id/FirstFragment" />
+    </fragment>
+
+    <activity
+        android:id="@+id/mainActivity"
+        android:name="com.example.natsuyasai.ui.MainActivity"
+        android:label="activity_main"
+        tools:layout="@layout/activity_main" />
+
+    <activity
+        android:id="@+id/homeActivity"
+        android:name="com.example.natsuyasai.ui.HomeActivity"
+        android:label="activity_home"
+        tools:layout="@layout/activity_home" />
+
+    <activity
+        android:id="@+id/neweventActivity"
+        android:name="com.example.natsuyasai.ui.NewEventActivity"
+        android:label="activity_newevent"
+        tools:layout="@layout/activity_newevent" />
+
+    <activity
+        android:id="@+id/eventcreatedActivity"
+        android:name="com.example.natsuyasai.ui.EventCreatedActivity"
+        android:label="activity_home"
+        tools:layout="@layout/activity_eventcreated" />
+
+
+    <activity
+        android:id="@+id/newYearActivity"
+        android:name="com.example.natsuyasai.ui.NewYearActivity"
+        android:label="activity_new_year"
+        tools:layout="@layout/activity_new_year" />
+
+    <activity
+        android:id="@+id/messagesActivity"
+        android:name="com.example.natsuyasai.ui.MessagesActivity"
+        android:label="activity_messages"
+        tools:layout="@layout/activity_messages" />
+
+</navigation>
